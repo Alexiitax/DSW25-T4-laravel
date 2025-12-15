@@ -7,7 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Listado de Tareas</h1>
+    <h1>Listado de Tareas</h1> 
+    <p>
+        <a href="{{ Route('tasks.create') }}">Crear tarea</a>
+    </p>
     <table>
         <thead>
             <tr>
